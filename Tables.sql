@@ -16,6 +16,7 @@ INSERT INTO STUDENTS (ST_ID, ST_NAME, ST_LAST) VALUES
 (2, 'Shahnur', 'Isgandarli'),
 (3, 'Natavan', 'Mammadova');
 
+
 INSERT INTO INTERESTS (STUDENT_ID, INTEREST) VALUES
 (1, 'Tennis'),
 (1, 'Literature'),
@@ -27,5 +28,5 @@ INSERT INTO INTERESTS (STUDENT_ID, INTEREST) VALUES
 (1, 'Chemistry'),
 (3, 'Chess');
 
-select * from STUDENTS;
+SELECT * from STUDENTS;
 SELECT* from INTERESTS;
