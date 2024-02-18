@@ -9,7 +9,7 @@ ALTER TABLE STUDENTS ALTER COLUMN ST_LAST TYPE VARCHAR(30);
 -- Change the name of the INTERESTS.
 ALTER TABLE INTERESTS RENAME TO INTEREST;
 
--- INTEREST to INTERESTS and its type to array ofstrings. 
+-- INTEREST to INTERESTS and its type to array of strings. 
 -- Migrate the data (table content) correspondingly
 CREATE TABLE NEW_INTERESTS (
     STUDENT_ID INTEGER REFERENCES STUDENTS(STUDENT_ID),
